@@ -83,29 +83,56 @@
 
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+  body{
+    background: blue;
+  }
+}
 
 
 /*Tableta Mobile L Mobile M Mobile S Mobile 175+ 150+*/
 
 @media screen and (max-width: 992px) {}
 
+    body{
+      background: black;
+    }
 
 /*Mobile 200+*/
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    body{
+      background: yellow;
+    }
+}
 
 
 /*Mobile 250+*/
 
-@media screen and (max-width: 560px) {}
+@media screen and (max-width: 560px) {
+  body{
+    background: green;
+  }
+
+}
 
 
 /*Mobile 300+*/
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+
+    body{
+      background: brown;
+    }
+}
 
 
 /*Mobile 500+*/
 
-@media screen and (max-width:453px) {}
+@media screen and (max-width:453px) {
+  body{
+    background: purple;
+  }
+}
