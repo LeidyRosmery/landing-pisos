@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CyberTips</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="http://www.sodimac.com.pe/static/styles/content.min.css?vid=3322">
+  <link rel="stylesheet" type="text/css" href="http://www.sodimac.com.pe/static/categorias/contenidoEstatido/cybertips/assets/css/cybertip.css">
+  <link rel="stylesheet" href="assets/css/cybertip.css">
+</head>
+
+<body>
+  <main id="main" class="newMainSection">
+    <div class="container">
+      <section class="col-md-12">
+        <div class="row">
+          <div class="text-center col-md-12 col-xs-12">
+            <div class="head">
+              <img class="img-responsive head-img" src="assets/img/title_web.png" alt="">
+              <p class="font-red"> Da un gran paso en tu vida.</p>
+              <p class="font-red">Encuentra el piso que buscas a los mejores precios.</p>
+            </div>
+            <div class="title-responsive hidden-lg hidden-md">
+              <p class="color-blue">Descubre el <span class="color-red">Piso ideal </span>para ti <span></span></p>
+            </div>
+            <div class="slider">
+
+            </div>
+            <div class="pisoCategorias">
+
+              <!--PISO IDEAL -->
+              <div class="pisoPage">
+
+                <h4>Descubre el <br><span>PISO IDEAL</span> para ti</h4>
+
+                <div class="optionsCat">
+
+                  <!--COL 01 -->
+                  <div class="pisoCol esp01">
+
+                    <a class="opCat" href="http://www.sodimac.com.pe/sodimac-pe/content/a760016/laminados">
+                    <img src="assets/img/ban_laminados.jpg" alt="">
+                    <span class="pShadow">
+                      <span class="pCon">
+                        <p>Conoce las tendencias en</p>
+                        <span class="pSubtitle">Pisos</span>
+                        <h5>Laminados</h5>
+                        <div class="btnVer">VER MÁS</div>
+                      </span>
+                    </span>
+                  </a>
+                  </div>
+
+                  <!--COL 02 -->
+                  <div class="pisoCol esp02">
+                    <a class="opCat" href="http://www.sodimac.com.pe/sodimac-pe/content/a760018/ceramicos" style="margin-bottom: 10px;">
+                    <img src="assets/img/ban_ceramicos.jpg" alt="">
+                    <span class="pShadow">
+                      <span class="pCon">
+                        <p>Descubre el encanto de los</p>
+                        <span class="pSubtitle">Pisos</span>
+                        <h5>Cerámicos</h5>
+                        <div class="btnVer">VER MÁS</div>
+                      </span>
+                    </span>
+                  </a>
+
+                    <a class="opCat" href="http://www.sodimac.com.pe/sodimac-pe/content/a760017/decorados">
+                    <img src="assets/img/ban_decorados.jpg" alt="">
+                    <span class="pShadow">
+                      <span class="pCon">
+                        <p>Déjate llevar por la <br>versatilidad de los</p>
+                        <h5>Decorados</h5>
+                        <div class="btnVer">VER MÁS</div>
+                      </span>
+                    </span>
+                  </a>
+
+                  </div>
+
+                  <!--COL 03 -->
+                  <div class="pisoCol esp01">
+
+                    <a class="opCat" href="http://www.sodimac.com.pe/sodimac-pe/content/a760015/porcelanatos">
+                    <img src="assets/img/ban_porcelanatos.jpg" alt="">
+                    <span class="pShadow">
+                      <span class="pCon">
+                        <p>Refleja tu estilo con los</p>
+                        <span class="pSubtitle">Pisos</span>
+                        <h5>Porcelanatos</h5>
+                        <div class="btnVer">VER MÁS</div>
+                      </span>
+                    </span>
+                  </a>
+
+                  </div>
+
+                  <!--CLEAR FIX -->
+                  <div class="clear"></div>
+
+                  <!--COL 04 -->
+                  <div class="pisoCol esp03">
+
+                    <a class="opCat" href="http://www.sodimac.com.pe/sodimac-pe/content/a760019/baldosas-y-piedras-naturales">
+                    <img src="assets/img/ban_baldosas.jpg" alt="">
+                    <span class="pShadow">
+                      <span class="pCon">
+                        <p>Crea un ambiente rústico con</p>
+                        <h5>Baldosas y <br>Piedras naturales</h5>
+                        <div class="btnVer">VER MÁS</div>
+                      </span>
+                    </span>
+                  </a>
+
+                  </div>
+
+                </div>
+
+                <!--CATEGORIA MOVIL -->
+                <div class="optionsCat_mov">
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a760016/laminados"><img src="/static/categorias/contenidoEstatico/landings/Landing-especial-pisos-2017/images/ban_laminados_movil.jpg" alt=""></a>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a760018/ceramicos"><img src="/static/categorias/contenidoEstatico/landings/Landing-especial-pisos-2017/images/ban_ceramicos_movil.jpg" alt=""></a>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a760017/decorados"><img src="/static/categorias/contenidoEstatico/landings/Landing-especial-pisos-2017/images/ban_decorados_movil.jpg" alt=""></a>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a760015/porcelanatos"><img src="/static/categorias/contenidoEstatico/landings/Landing-especial-pisos-2017/images/ban_porcelanatos_movil.jpg" alt=""></a>
+                  <a href="http://www.sodimac.com.pe/sodimac-pe/content/a760019/baldosas-y-piedras-naturales"><img src="/static/categorias/contenidoEstatico/landings/Landing-especial-pisos-2017/images/ban_baldosas_movil.jpg" alt=""></a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="http://www.sodimac.com.pe/static/script/min/plugin/content.min.js?vid=3322"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://www.sodimac.com.pe/static/categorias/contenidoEstatido/cybertips/assets/js/cybertip.js"></script>
+  <script type="text/javascript" src="">
+  </script>
+</body>
+
+</html>

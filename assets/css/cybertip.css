@@ -1,154 +1,309 @@
 @font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/awesome/fontawesome-webfont.eot');
-    src: url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('../awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal
+  font-family: 'FontAwesome';
+  src: url('../fonts/awesome/fontawesome-webfont.eot');
+  src: url('../fonts/awesome/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/awesome/fontawesome-webfont.woff2') format('woff2'), url('../awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/awesome/fontawesome-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
 }
 
 @font-face {
-    font-family: 'iconvtc';
-    src: url('../fonts/iconvtc/vtc.eot');
-    src: url('../fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.ttf') format('truetype'), url('../fonts/iconvtc/vtc.svg') format('svg');
-    font-weight: normal;
-    font-style: normal
+  font-family: 'iconvtc';
+  src: url('../fonts/iconvtc/vtc.eot');
+  src: url('../fonts/iconvtc/vtc.eot') format('embedded-opentype'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.woff') format('woff'), url('../fonts/iconvtc/vtc.ttf') format('truetype'), url('../fonts/iconvtc/vtc.svg') format('svg');
+  font-weight: normal;
+  font-style: normal
 }
 
 @font-face {
-    font-family: 'miso';
-    src: url('../fonts/miso/miso-webfont.eot');
-    src: url('../fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso/miso-webfont.woff2') format('woff2'), url('../fonts/miso/miso-webfont.woff') format('woff'), url('../fonts/miso/miso-webfont.ttf') format('truetype'), url('../fonts/miso/miso-webfont.svg#miso') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'miso';
+  src: url('../fonts/miso/miso-webfont.eot');
+  src: url('../fonts/miso/miso-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso/miso-webfont.woff2') format('woff2'), url('../fonts/miso/miso-webfont.woff') format('woff'), url('../fonts/miso/miso-webfont.ttf') format('truetype'), url('../fonts/miso/miso-webfont.svg#miso') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'misoregular';
-    src: url('../fonts/miso-regular/miso-regular-webfont.eot');
-    src: url('../fonts/miso-regular/miso-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-regular/miso-regular-webfont.woff2') format('woff2'), url('../fonts/miso-regular/miso-regular-webfont.woff') format('woff'), url('../fonts/miso-regular/miso-regular-webfont.ttf') format('truetype'), url('../fonts/miso-regular/miso-regular-webfont.svg#misoregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'misoregular';
+  src: url('../fonts/miso-regular/miso-regular-webfont.eot');
+  src: url('../fonts/miso-regular/miso-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-regular/miso-regular-webfont.woff2') format('woff2'), url('../fonts/miso-regular/miso-regular-webfont.woff') format('woff'), url('../fonts/miso-regular/miso-regular-webfont.ttf') format('truetype'), url('../fonts/miso-regular/miso-regular-webfont.svg#misoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+@font-face {
+  font-family: 'HandOfSeanPro';
+  src: url('../fonts/handsPro/handsean-webfont.eot');
+  src: url('../fonts/handsPro/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handsPro/handsean-webfont.woff2') format('woff2'), url('../fonts/handsPro/miso-regular-webfont.woff') format('woff'), url('../fonts/miso-regular/miso-regular-webfont.ttf') format('truetype'), url('../fonts/miso-regular/miso-regular-webfont.svg#misoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+@font-face {
+  font-family: 'misobold';
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot');
+  src: url('../fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('../fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('../fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'misobold';
-    src: url('../fonts/miso-bold/miso-bold-webfont.eot');
-    src: url('../fonts/miso-bold/miso-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-bold/miso-bold-webfont.woff2') format('woff2'), url('../fonts/miso-bold/miso-bold-webfont.woff') format('woff'), url('../fonts/miso-bold/miso-bold-webfont.ttf') format('truetype'), url('../fonts/miso-bold/miso-bold-webfont.svg#misobold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'misolight';
+  src: url('../fonts/miso-light/miso-light-webfont.eot');
+  src: url('../fonts/miso-light/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-light/miso-light-webfont.woff2') format('woff2'), url('../fonts/miso-light/miso-light-webfont.woff') format('woff'), url('../fonts/miso-light/miso-light-webfont.ttf') format('truetype'), url('../fonts/miso-light/miso-light-webfont.svg#misolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'misolight';
-    src: url('../fonts/miso-light/miso-light-webfont.eot');
-    src: url('../fonts/miso-light/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/miso-light/miso-light-webfont.woff2') format('woff2'), url('../fonts/miso-light/miso-light-webfont.woff') format('woff'), url('../fonts/miso-light/miso-light-webfont.ttf') format('truetype'), url('../fonts/miso-light/miso-light-webfont.svg#misolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'hand';
+  src: url('../fonts/handsean/handsean-webfont.eot');
+  src: url('../fonts/handsean/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handsean/handsean-webfont.woff2') format('woff2'), url('../fonts/handsean/handsean-webfont.woff') format('woff'), url('../fonts/handsean/handsean-webfont.ttf') format('truetype'), url('../fonts/handsean/handsean-webfont.svg#handsean') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face {
-    font-family: 'hand';
-    src: url('../fonts/handsean/handsean-webfont.eot');
-    src: url('../fonts/handsean/handsean-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/handsean/handsean-webfont.woff2') format('woff2'), url('../fonts/handsean/handsean-webfont.woff') format('woff'), url('../fonts/handsean/handsean-webfont.ttf') format('truetype'), url('../fonts/handsean/handsean-webfont.svg#handsean') format('svg');
-    font-weight: normal;
-    font-style: normal;
+.head-img {
+  padding-bottom: 16px;
+  width: 250px;
+  display: inline-block;
 }
 
-.ctn-ct .col-lg {
-    background: green;
-    height: 432px;
-    padding: 10px 5px;
+.font-red {
+  font-family: "MisoRegular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #d11b1d;
+  text-align: center;
 }
 
-.ctn-ct .col-md {
-    background: purple;
-    height: 211px;
-    padding: 10px 5px;
+.title-responsive .color-blue {
+  color: #0079d7;
+  font-family: "hand", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #0070d1;
+  text-align: center;
 }
 
-.ctn-ct {
-    background: skyblue;
-    width: 100%;
-    margin: 0 auto;
-    display: inline-block;
-    padding: 0 56px;
+.title-responsive .color-red {
+  font-family: "MisoRegular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #d11b1d;
+  text-align: center;
 }
 
-.pd-col {
-    padding: 5px 8px;
+.item-hover .lateral {
+  height: 433px;
+  width: 261px;
+  background: purple;
 }
 
+.item-hover .centro {
+  height: 212px;
+  background: skyblue;
+}
+
+.item-hover {
+  background: #fff;
+  box-shadow: 0px -10px 20px #909090;
+  padding-bottom: 50px;
+  width: 894px;
+  display: inline-block;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.pisoCategorias {
+  background: #fff;
+  display: block;
+  height: 800px;
+  position: relative;
+}
+
+.pisoCategorias .pisoPage {
+  background: #fff;
+  display: block;
+  box-shadow: 0px -10px 20px #909090;
+  margin-top: -52px;
+  margin-left: -447px;
+  padding-bottom: 50px;
+  width: 894px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.pisoCategorias .pisoPage h4 {
+  font-family: "Hand", Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: normal;
+  color: #0070d1;
+  display: block;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.pisoCategorias .pisoPage h4 br {
+  display: none;
+}
+
+.pisoCategorias .pisoPage h4 span {
+  font-family: "MisoBold", Arial, Helvetica, sans-serif;
+  color: #e00015;
+}
+
+.pisoCategorias .pisoPage .optionsCat {
+  /*  background: orange;*/
+  margin: 0 auto;
+  display: block;
+  width: 806px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol {
+  display: block;
+  float: left;
+  margin: .5%;
+  width: 32.333%;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol.esp03 {
+  float: none;
+  width: 99%;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat {
+  display: block;
+  position: relative;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat img {
+  display: block;
+  height: auto;
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow {
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: background .5s ease 0s;
+  -moz-transition: background .5s ease 0s;
+  transition: background .5s ease 0s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat:hover .pShadow {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat:hover img {
+  transform: scale(1.1)
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol.esp01 .opCat .pShadow .pCon {
+  padding-top: 150px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol.esp02 .opCat .pShadow .pCon {
+  padding-top: 50px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol.esp03 .opCat .pShadow .pCon {
+  padding-top: 40px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow .pCon {
+  font-family: "MisoRegular", Arial, Helvetica, sans-serif;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow .pCon p {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow .pCon .pSubtitle {
+  font-size: 22px;
+  display: block;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow .pCon h5 {
+  font-family: "Hand", Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: normal;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.pisoCategorias .pisoPage .optionsCat .pisoCol .opCat .pShadow .pCon .btnVer {
+  background: transparent url(images/btn_ver.png) no-repeat 50% 0%;
+  font-size: 14px;
+  display: block;
+  padding-top: 34px;
+}
+
+.pisoCol.esp01 {
+  height: 432px;
+  overflow: hidden;
+}
+
+.pisoCol.esp02 {
+  height: 432px;
+  overflow: hidden;
+}
+
+.pisoCol.esp02 a {
+  height: 210px;
+  overflow: hidden;
+}
+
+.pisoCol.esp03 {
+  height: 208px;
+  overflow: hidden;
+}
 
 /*Desktop*/
 
-
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
-@media screen and (min-width: 992px) {
-    body {
-        background: red;
-    }
-}
-
+@media screen and (min-width: 992px) {}
 
 /*Tableta Mobile L Mobile M Mobile S Mobile 175+ 150+*/
 
-@media screen and (max-width: 992px) {
-    body {
-        background: yellow;
-    }
-.ctn-ct .col-md , .ctn-ct .col-lg{
-        height: 152px;
-    }
-    .ctn-ct .row .ct-item-01,.ctn-ct .row .ct-item-02 , .ctn-ct .row .ct-item-03 , .ctn-ct .row .ct-item-04 , .ctn-ct .row .ct-item-05{
-      width: 33.33%;
-      float:right;
-
-    }
-    .row-md{
-          padding: 0 7px;
-    }
-}
-
+@media screen and (max-width: 992px) {}
 
 /*Mobile 200+*/
 
-@media screen and (max-width: 768px) {
-    body {
-        background: purple;
-    }
-}
-
+@media screen and (max-width: 768px) {}
 
 /*Mobile 250+*/
 
-@media screen and (max-width: 560px) {
-    body {
-        background: black;
-    }
-    .ctn-ct .row .ct-item-01,.ctn-ct .row .ct-item-02 , .ctn-ct .row .ct-item-03 , .ctn-ct .row .ct-item-04 , .ctn-ct .row .ct-item-05{
-      width: 50%;
-      float:left;
-
-    }
-}
-
+@media screen and (max-width: 560px) {}
 
 /*Mobile 300+*/
 
-@media screen and (max-width: 480px) {
-    body {
-        background: brown;
-    }
-}
-
+@media screen and (max-width: 480px) {}
 
 /*Mobile 500+*/
 
-@media screen and (max-width:453px) {
-
-
-    body {
-        background: white;
-    }
+@media screen and (maxn-width:453px) {
+  .pisoCategorias .pisoPage .optionsCat .pisoCol {
+    width: 100%;
+    height: 30vh;
+  }
+  .pisoCategorias .pisoPage .optionsCat .pisoCol {}
 }
