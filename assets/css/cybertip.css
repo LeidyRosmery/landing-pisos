@@ -54,21 +54,22 @@
     font-style: normal;
 }
 
-.green {
+.ctn-ct .col-lg {
     background: green;
     height: 432px;
     padding: 10px 5px;
 }
 
-.purple {
+.ctn-ct .col-md {
     background: purple;
-    height:211px;
+    height: 211px;
     padding: 10px 5px;
 }
 
 .ctn-ct {
     background: skyblue;
-    width: 896px;
+    width: 100%;
+    margin: 0 auto;
     display: inline-block;
     padding: 0 56px;
 }
@@ -84,27 +85,37 @@
 /*Desktop and md-lg Desktop 125+ 110+ 100+>25*/
 
 @media screen and (min-width: 992px) {
-
-  body{
-    background: blue;
-  }
+    body {
+        background: red;
+    }
 }
 
 
 /*Tableta Mobile L Mobile M Mobile S Mobile 175+ 150+*/
 
-@media screen and (max-width: 992px) {}
-
-    body{
-      background: black;
+@media screen and (max-width: 992px) {
+    body {
+        background: yellow;
     }
+.ctn-ct .col-md , .ctn-ct .col-lg{
+        height: 152px;
+    }
+    .ctn-ct .row .ct-item-01,.ctn-ct .row .ct-item-02 , .ctn-ct .row .ct-item-03 , .ctn-ct .row .ct-item-04 , .ctn-ct .row .ct-item-05{
+      width: 33.33%;
+      float:right;
+
+    }
+    .row-md{
+          padding: 0 7px;
+    }
+}
+
 
 /*Mobile 200+*/
 
 @media screen and (max-width: 768px) {
-
-    body{
-      background: yellow;
+    body {
+        background: purple;
     }
 }
 
@@ -112,19 +123,22 @@
 /*Mobile 250+*/
 
 @media screen and (max-width: 560px) {
-  body{
-    background: green;
-  }
+    body {
+        background: black;
+    }
+    .ctn-ct .row .ct-item-01,.ctn-ct .row .ct-item-02 , .ctn-ct .row .ct-item-03 , .ctn-ct .row .ct-item-04 , .ctn-ct .row .ct-item-05{
+      width: 50%;
+      float:left;
 
+    }
 }
 
 
 /*Mobile 300+*/
 
 @media screen and (max-width: 480px) {
-
-    body{
-      background: brown;
+    body {
+        background: brown;
     }
 }
 
@@ -132,7 +146,9 @@
 /*Mobile 500+*/
 
 @media screen and (max-width:453px) {
-  body{
-    background: purple;
-  }
+
+
+    body {
+        background: white;
+    }
 }
